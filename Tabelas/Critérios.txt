@@ -1,0 +1,6 @@
+G01) maintype = G & redshift>0 & Distance.distance < 5 & Distance.unit = Mpc
+G02) maintype = G & redshift>0 & Distance.distance < 10 & Distance.distance >= 5 & Distance.unit = Mpc
+G03) maintype = G & redshift>0 & Distance.distance < 15 & Distance.distance >= 10 & Distance.unit = Mpc
+G04) maintype = G & redshift>0 & Distance.distance < 20 & Distance.distance >= 15 & Distance.unit = Mpc
+G05) maintype = G & redshift>0 & Distance.distance < 25 & Distance.distance >= 20 & Distance.unit = Mpc
+G06) 
