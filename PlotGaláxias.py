@@ -18,9 +18,16 @@ df['   radvel   '] = df['   radvel   '].replace({' ':''}, regex =True).astype(fl
 df = df.loc[~(df[' distance Q unit']<distmin)]
 df = df.loc[~(df[' distance Q unit']>distmax)]
 
+#Filtro de galaxias
+fora = df.loc[df['   radvel   ']>6000]
+fora.to_csv('Galaxiasfora25to30.csv')
+
 #Lei de Hubble
 x = np.linspace(distmin,distmax)
 y = 67.8*x
+
+#Regressao linear
+
 
 plt.plot(x,y, color="red")
 plt.scatter(df[' distance Q unit'],df['   radvel   '])
