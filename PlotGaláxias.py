@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy import stats
 
 #Leia a tabela e especifique qual o separador
 df = pd.read_csv("C:/Users/ggust/Desktop/Pastas/ICJ/Tabelas/G06 - 25 a 30.csv", sep=';')
@@ -27,10 +28,11 @@ x = np.linspace(distmin,distmax)
 y = 67.8*x
 
 #Regressao linear
-
+reg  = np.polyfit(df[' distance Q unit'],df['   radvel   '],1)
+print(reg)
 
 plt.plot(x,y, color="red")
 plt.scatter(df[' distance Q unit'],df['   radvel   '])
-plt.savefig('Grafico 25 a 30 Mpc.png')
+#plt.savefig('Grafico 25 a 30 Mpc.png')
 plt.show()
 
