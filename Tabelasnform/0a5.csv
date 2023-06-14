@@ -1,12 +1,4 @@
-C.D.S.  -  SIMBAD4 rel 1.8  -  2023.05.18CEST01:48:49
-
-maintype = G & redshift >0 & Distance.distance <  5 & Distance.unit = Mpc
--------------------------------------------------------------------------
-
-Number of objects : 122
-
- # ;            identifier             ;typ;  radvel   ;  redshift  ;    cz     ;#dist; distance Q unit;  err-        err+     ; method ;     reference     
----;-----------------------------------;---;-----------;------------;-----------;-----;----------------;-----------------------;--------;-------------------
+#;identifier;typ;radvel;redshift;cz;#dist;distance Q unit;err-err+;method;reference
 1  ;LEDA 2807102                       ;G  ;39         ;0.000130    ;39.00      ;    1;    4.27    Mpc ;                       ;redshift;2018MNRAS.479.4136K
 2  ;LEDA 168300                        ;G  ;75         ;0.000250    ;75.01      ;    1;    7.24    Mpc ;                       ;redshift;2018MNRAS.479.4136K
 3  ;LEDA 2807107                       ;G  ;70         ;0.000234    ;70.01      ;    1;    3.48    Mpc ;                       ;mem     ;2017AJ....153....6K
@@ -129,5 +121,3 @@ Number of objects : 122
 120;SDSS J122409.95+261352.7           ;G  ;288        ;0.000961    ;288.14     ;    1;    3.37    Mpc ;                       ;redshift;2018MNRAS.479.4136K
 121;LEDA 4074723                       ;G  ;228        ;0.00076     ;227.8      ;    1;    4.08    Mpc ;                       ;redshift;2018MNRAS.479.4136K
 122;LEDA 5057032                       ;G  ;242        ;0.000808    ;242.10     ;    1;    4.33    Mpc ;                       ;        ;2016AJ....152...50T
-================================================================================
-

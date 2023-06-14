@@ -1,12 +1,4 @@
-C.D.S.  -  SIMBAD4 rel 1.8  -  2023.05.18CEST01:51:13
-
-maintype = G & redshift >0 & Distance.distance <  25 & Distance.distance  >= 20 & Distance.unit = Mpc
------------------------------------------------------------------------------------------------------
-
-Number of objects : 285
-
- # ;            identifier             ;typ;  radvel   ;  redshift  ;    cz     ;#dist; distance Q unit;  err-        err+     ; method ;     reference     
----;-----------------------------------;---;-----------;------------;-----------;-----;----------------;-----------------------;--------;-------------------
+#;identifier;typ;radvel;redshift;cz;#dist;distance Q unit;err-err+;method;reference
 1  ;UGC 11861                          ;G  ;1479       ;0.004946    ;1482.67    ;    1;   21.38    Mpc ;  -3.46       +3.46    ;T-F     ;2020ApJ...902..145K
 2  ;UGC 12160                          ;G  ;1550       ;0.005184    ;1554.12    ;    1;   25.5859  Mpc ;                       ;redshift;2019A&A...631A..38L
 3  ;UGC 12069                          ;G  ;2357       ;0.007892    ;2365.96    ;    1;   24       Mpc ;  -5          +4       ;T-F     ;2008ApJ...676..184T
