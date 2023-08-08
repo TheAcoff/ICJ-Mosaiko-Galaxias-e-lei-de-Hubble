@@ -1,0 +1,5 @@
+Mediana: 38.1
+Q1: 35.0
+Q3: 46.0
+Limite Superior: 62.5
+Limite Inferior: 18.5
